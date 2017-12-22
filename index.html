@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=480px">
+		
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+		<link rel="stylesheet" type="text/css" href="icon/iconfont.css"/>
+		<script src="js/mobile-util.js" type="text/javascript" charset="utf-8"></script>
+		<link rel="stylesheet" type="text/css" href="swiperJS/swiper-3.4.2.min.css"/>
+		<style>
+			.swiper-container {
+			    width: 100%;
+			    height: auto;
+			} 
+			.swiper-container img {
+			    width: 100%;
+			} 
+			.swiper-container2 {
+				overflow: hidden;
+			} 
+			.swiper-container2 img{
+				width: 100%;
+				height: auto;
+			}
+			.swiper-container2 p{
+				text-align: center;
+				font-size: 16px;
+				line-height: 30px;
+				color: #000;
+				margin-bottom: 10px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="box">
+			<div class="top">
+				<span><img src="img/jy_03.png"/><span>北京市<i class="iconfont">&#xe650;</i></span></span>
+				<span class="iconfont">&#xe6eb;</span>
+			</div>
+			
+			<div class="main">
+				<div class="swiper-container">
+				    <div class="swiper-wrapper">
+				        <div class="swiper-slide"><img src="img/lb_02.png"/></div>
+				        <div class="swiper-slide"><img src="img/4.jpg"/></div>
+				        <div class="swiper-slide"><img src="img/5.jpg"/></div>
+				    </div>
+				</div>
+				<div class="m-biao">
+					<span>热映电影</span>
+					<span>更多<i class="iconfont">&#xe6e1;</i></span>
+				</div>
+				<div class="swiper-container2">
+				    <div class="swiper-wrapper">
+				        <div class="swiper-slide"><img src="img/nav.jpg"/>
+				        	<p>寻梦环游记</p>
+				        </div>
+				        <div class="swiper-slide"><img src="img/nav2.jpg"/>
+				        	<p>只爱梵高...</p>
+				        </div>
+				        <div class="swiper-slide"><img src="img/nav3.jpg"/>
+				        	<p>芳华</p>
+				        </div>
+				        <div class="swiper-slide"><img src="img/nav4.jpg"/>
+				        	<p>奇门遁甲</p>
+				        </div>
+				        <div class="swiper-slide"><img src="img/nav5.jpg"/>
+				        	<p>心理罪之城..</p>
+				        </div>
+				        <div class="swiper-slide"><img src="img/nav6.jpg"/>
+				        	<p>机器之血</p>
+				        </div>
+				    </div>
+				</div>
+				<div class="kong"></div>
+				<div class="m-bottom">
+					<h2>金逸推荐</h2>
+					<ul>
+						<li>
+							<img src="img/jy_18.png"/>
+							<span>
+								<p>萌熊归来《帕丁电话卡是活动课时间啊》</p>
+								<b>2017-12-21 <i>阅读</i></b>
+							</span>
+						</li>
+						<li>
+							<img src="img/jy_18.png"/>
+							<span>
+								<p>萌熊归来《帕丁电话卡是活动课时间啊》</p>
+								<b>2017-12-21 <i>阅读</i></b>
+							</span>
+						</li>
+						<li>
+							<img src="img/jy_18.png"/>
+							<span>
+								<p>萌熊归来《帕丁电话卡是活动课时间啊》</p>
+								<b>2017-12-21 <i>阅读</i></b>
+							</span>
+						</li>
+						<li>
+							<img src="img/jy_18.png"/>
+							<span>
+								<p>萌熊归来《帕丁电话卡是活动课时间啊》</p>
+								<b>2017-12-21 <i>阅读</i></b>
+							</span>
+						</li>
+						<li>
+							<img src="img/jy_18.png"/>
+							<span>
+								<p>萌熊归来《帕丁电话卡是活动课时间啊》</p>
+								<b>2017-12-21 <i>阅读</i></b>
+							</span>
+						</li>
+						<li>
+							<img src="img/jy_18.png"/>
+							<span>
+								<p>萌熊归来《帕丁电话卡是活动课时间啊》</p>
+								<b>2017-12-21 <i>阅读</i></b>
+							</span>
+						</li>
+						
+					</ul>
+				</div>
+			</div>
+			
+				
+				
+			
+			
+			<div class="footer">
+				<div>
+					<span class="iconfont">&#xe701;</span>
+					<p>推荐</p>
+				</div>
+				<div>
+					<span class="iconfont">&#xe6a1;</span>
+					<p>活动</p>
+				</div>
+				<div>
+					<span class="iconfont">&#xe61b;</span>
+					<p>商城</p>
+				</div>
+				<div>
+					<span class="iconfont">&#xe6f7;</span>
+					<p>圈子</p>
+				</div>
+				<div>
+					<span class="iconfont">&#xe611;</span>
+					<p>我的</p>
+				</div>
+			</div>
+				
+			
+		</div>
+		
+		
+		<script src="swiperJS/jquery-1.10.1.min.js"></script>
+		<script src="swiperJS/swiper-3.4.2.min.js"></script>
+		<script language="javascript"> 
+		var mySwiper = new Swiper('.swiper-container',{
+			slideToClickedSlide:true,
+			loop : true,
+			autoplay: 3000
+		})
+		var mySwiper = new Swiper('.swiper-container2',{
+		slidesPerView : 3.5,
+		spaceBetween : 20,
+		//spaceBetween : '10%',按container的百分比
+		})
+
+
+</script>
+	</body>	
+</html>
